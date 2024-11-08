@@ -1,0 +1,68 @@
+.bg{
+    background-color: #85ecec; /* استبدل برمز اللون الذي اخترته */
+    padding: 15px;
+}
+
+
+.a {
+    color: #333;
+    margin-left: 10px;
+    text-decoration: none; /* لإزالة الخط السفلي */
+    padding: 5px 10px; /* إضافة حشوة لإعطاء مساحة حول النص */
+    border-radius: 5px; /* زوايا دائرية لجعلها أكثر نعومة */
+    transition: all 0.3s ease; /* تأثير سلس عند التحول */
+}
+
+.a:hover {
+    color: #ffffff; /* تغيير لون النص عند التمرير */
+    background-color: rgb(143, 243, 148); /* الخلفية عند التمرير */
+    transform: scale(1.05); /* تكبير طفيف عند التمرير */
+    /* يمكنك إضافة ظل */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ظل لطيف */
+}
+.card {
+    margin: 10px 0; /* Add space between cards */
+    border: 2px solid #5cb85c; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s, box-shadow 0.2s; /* Hover effects */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.badge {
+    font-size: 1.2em; /* Increase badge font size */
+    padding: 5px 10px; /* Add padding to badge */
+}
+.welcome-card {
+    margin: 10px auto;
+    max-width: 800px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.welcome-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.welcome-message {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #007bff;
+}
+footer {
+    background-color: #85ecec;    
+    color: #333;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.footer-content {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
